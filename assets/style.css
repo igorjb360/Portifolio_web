@@ -11,6 +11,11 @@
   z-index: -1;
 }
 
+.img-sobre{
+  position: absolute;
+  right: 0;
+}
+
 body {
   color: var(--body-color);
   background-color: var(--base-color);
@@ -41,6 +46,10 @@ body {
   margin-top: 15% !important;
 }
 
+.espacamento-habilidades{
+  margin-top: 45%;
+}
+
 :root {
   /* colors */
   --hue: 280;
@@ -58,4 +67,26 @@ body {
 
 --title-font: "poppins", sans-serif;
 --body-font: "DM Sans", sans-serif;
+}
+
+@media (max-width: 1002px){
+  .img-sobre{
+    width: 50vw;
+  }
+}
+
+@media (max-width: 440px){
+  .img-sobre{
+    width: 220px;
+  }
+
+  .espacamento-habilidades{
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 440px){
+  .espacamento-habilidades{
+    margin-top: 90%;
+  }
 }
