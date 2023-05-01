@@ -46,8 +46,20 @@ body {
   margin-top: 15% !important;
 }
 
+.espacamento-topo{
+  margin-top: 15% !important;
+}
+
 .espacamento-habilidades{
   margin-top: 45%;
+}
+
+.bg-preto{
+  background-color: var(--base-color) !important;
+}
+
+.nav-bar-quadro{
+  background-color: var(--base-color-clara) !important;
 }
 
 :root {
@@ -55,6 +67,7 @@ body {
   --hue: 280;
   /* HSL color mode */
 --base-color: #000000;
+--base-color-clara: #444444;
 --base-color-second: #BBED2F;
 --title-color: hsl(var(--hue) 41% 10%);
 --text-color: hsl(0 0% 46%);
@@ -73,6 +86,10 @@ body {
   .img-sobre{
     width: 50vw;
   }
+
+  .espacamento-topo{
+    margin-top: 30% !important;
+  }
 }
 
 @media (max-width: 440px){
@@ -89,4 +106,6 @@ body {
   .espacamento-habilidades{
     margin-top: 90%;
   }
+
+  
 }

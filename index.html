@@ -13,18 +13,18 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="bg-preto navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <img src="./assets/RAFIGNA 1.png">
                 <a class="navbar-brand font-branca" href="#">RAFIGNA</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="nav-bar-quadro navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active font-branca" aria-current="page" href="#">Sobre</a>
+                        <a class="nav-link active font-branca" aria-current="page" href="#sobre">Sobre</a>
                         <a class="nav-link font-branca" href="#habilidades">Habilidades</a>
                         <a class="nav-link font-branca" href="#portifolio">Portifolio</a>
                         <a class="nav-link font-branca" href="#contato">Contatos</a>
@@ -33,7 +33,7 @@
             </div>
         </nav>
     </header>
-    <div class="espacamento-padrao container">
+    <div class="espacamento-topo container">
         <div class="row">
             <div class="ml-1 col-md-6 text-start">
                 <h1>Olá, somos<br>RAFIGNA</h1>
@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-    <div class="espacamento-padrao container">
+    <div class="espacamento-padrao container" id="sobre">
         <div class="row">
             <div class="col-md-6">
                 <h1>Sobre</h1>
@@ -66,28 +66,30 @@
         </div>
     </div>
 
-    <div class="espacamento-habilidades container">
+    <div class="espacamento-habilidades container" id="habilidades">
         <div class="row">
             <div class="col-md-12">
                 <h1 class="mb-5">Habilidades</h1>
                 <div class="row">
-                    <img class='img-habilidades col-md-2' src="./assets/image 22.png" alt="">
-                    <img class='img-habilidades col-md-2' src="./assets/image 26.png" alt="">
-                    <img class='img-habilidades col-md-2' src="./assets/image 23.png" alt="">
-                    <img class='img-habilidades col-md-2' src="./assets/image 27.png" alt="">
-                    <img class='img-habilidades col-md-2' src="./assets/image 28.png" alt="">
-                    <img class='img-habilidades col-md-2' src="./assets/image 29.png" alt="">
+                    <img class='img-habilidades mt-5 col-md-2 col-sm-2 col-4' src="./assets/image 22.png" alt="">
+                    <img class='img-habilidades mt-5 col-md-2 col-sm-2 col-4' src="./assets/image 26.png" alt="">
+                    <img class='img-habilidades mt-5 col-md-2 col-sm-2 col-4' src="./assets/image 23.png" alt="">
+                    <img class='img-habilidades mt-5 col-md-2 col-sm-2 col-4' src="./assets/image 27.png" alt="">
+                    <img class='img-habilidades mt-5 col-md-2 col-sm-2 col-4' src="./assets/image 28.png" alt="">
+                    <img class='img-habilidades mt-5 col-md-2 col-sm-2 col-4' src="./assets/image 29.png" alt="">
                 </div>
             </div>
-            <div class="mt-5 d-flex justify-content-between">
-                <h1>FULLSTACK</h1>
-                <h1>CIENTISTA DE DADOS</h1>
-                <h1>REDES</h1>
+            <div class="mt-5 container">
+                <div class="row">
+                    <h1 class="text-center col-md-4 col-sm-4 col-12">FULLSTACK</h1>
+                    <h1 class="text-center col-md-4 col-sm-4 col-12">CIENTISTA DE DADOS</h1>
+                    <h1 class="text-center col-md-4 col-sm-4 col-12">REDES</h1>
+                </div>
             </div>
         </div>
     </div>
     </div>
-    <div class="espacamento-padrao container">
+    <div class="espacamento-padrao container" id="portifolio">
         <div class="row">
             <h1>Portifolio</h1>
             <div class="d-flex justify-content-center">
